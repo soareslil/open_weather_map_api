@@ -1,12 +1,18 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+  
+  *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-  }
+    font-family: Poppins, sans-serif;
+    background-image: url('https://image.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg');  
+    background-repeat:no-repeat;
+    background-size:cover;
+  }    
   
   body{
-    font-family: "Nunito",sans-serif;
-    background: #f8f8f8;
+    font-family: Poppins,sans-serif;
+    /* background: #21b0db; */
   }
   
   .input{
@@ -15,11 +21,11 @@
   }
   
   input[type="submit"]{
-    padding: 15px 30px;
-    background: #e7e7e7;
+    padding: 13px 22px;
+    /* background: #f7e8e8; */
     border: none;
-    border-radius: 1px;
-    font-family: "Nunito",sans-serif;
+    border-radius: 3px;
+    font-family: Poppins,sans-serif;
     font-weight:bold;
     font-size: 20px;
   }
@@ -28,37 +34,53 @@
     width: 600px;
     height: 55px;
     padding: 5px 10px;
-    background: #e7e7e7;
+    /* background: #eedbe6; */
     border: none;
-    border-radius: 1px;
-    font-family: "Nunito",sans-serif;
-    font-weight:bold;
+    border-radius: 3px;
+    font-family: "Poppins",sans-serif;
+    font-weight: bold;
     font-size: 20px;
   }
   
   .card{
     width: 50%;
-    background: #e7e7e7;
+    /* background: #afe716; */
     height: 40vh;
     margin: 50px auto;
     border-radius: 2px;
   }
   
   
-  .close{
+  /* .close{
     float: right;
     margin-top: -2px;
     cursor: pointer;
-    margin-right: 20px;
+    margin-right: 20px; */
   }
   
-  .card h1{
-    padding: 5px 0;
+  .card h2{
+    padding: 200px 10;
     text-align: center;
+  font-weight: bold;
   }
   
   .card p{
-    text-align: center;
-    margin:40px 0;
+   text-align: center;
+    margin:5px 0;
     font-size:20px;
+    color: purple; 
+    font-weight:bold;
   }
+  
+h1{
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container{
+  background-color: rgba(73, 73, 161, 0.315);
+  margin-left: 300px;
+  min-width: 500px;
+  width: 550%;
+  max-width: 600px;
+}
