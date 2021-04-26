@@ -1,18 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
-  
+  /* foto padrao: https://image.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg */
   *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-    background-image: url('https://image.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg');  
+    /* background-image: url('https://image.freepik.com/vetores-gratis/conjunto-de-icones-do-tempo-realista_1284-11788.jpg');  
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover; */
   }    
   
   body{
     font-family: Poppins,sans-serif;
     background: #21b0db;
+  background-image: url('https://image.freepik.com/vetores-gratis/colecao-do-icone-do-tempo-3d-vetor-de-nuvem-fofa-projeto-de-interface-do-usuario-do-simbolo-de-previsao-do-tempo_185694-179.jpg');  
+    background-repeat:no-repeat;
+    background-size:cover;
   }
   
   .input{
