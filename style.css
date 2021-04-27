@@ -1,18 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
-  /* foto padrao: https://image.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg */
+
   *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-    /* background-image: url('https://image.freepik.com/vetores-gratis/conjunto-de-icones-do-tempo-realista_1284-11788.jpg');  
-    background-repeat:no-repeat;
-    background-size:cover; */
   }    
   
   body{
     font-family: Poppins,sans-serif;
-    background: #21b0db;
   background-image: url('https://image.freepik.com/vetores-gratis/colecao-do-icone-do-tempo-3d-vetor-de-nuvem-fofa-projeto-de-interface-do-usuario-do-simbolo-de-previsao-do-tempo_185694-179.jpg');  
     background-repeat:no-repeat;
     background-size:cover;
@@ -24,18 +20,25 @@
   }
   
   input[type="submit"]{
-    padding: 13px 22px;
-    /* background: #f7e8e8; */
-    border: none;
+    padding: 11px 20px;
+    border: 1px solid;
+    color:rgba(95, 97, 226, 0.658);
     border-radius: 3px;
     font-family: Poppins,sans-serif;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 20px; 
+    cursor: pointer;
   }
+  
+input[type="submit"]:hover{
+  background-color: rgba(255, 255, 255, 0.521);
+  border: 2px solid rgba(95, 97, 226, 0.658);
+  color: rgb(57, 35, 117);
+}  
   
   .input input[type="text"]{
     width: 600px;
-    height: 55px;
+    height: 55px;  
     padding: 5px 10px;
     /* background: #eedbe6; */
     border: none;
@@ -54,11 +57,11 @@
   }
   
   
-  /* .close{
+  .close{
     float: right;
     margin-top: -2px;
     cursor: pointer;
-    margin-right: 20px; */
+    margin-right: 20px;
   }
   
   .card h2{
@@ -79,7 +82,6 @@ h1{
   padding: 20px 0;
   text-align: center;
 }
-
 .container{
   background-color: rgba(73, 73, 161, 0.315);
   margin-left: 300px;
