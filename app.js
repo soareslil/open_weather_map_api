@@ -18,7 +18,7 @@ button.addEventListener("click", function(name){
 
 
         input.value="";
-        main.innerHTML = nameValue;
+        main.innerHTML = 'City - ' +nameValue;
         temp.innerHTML = 'Temperature - '+tempValue;
         desc.innerHTML = 'Description - '+descValue;
         clouds.innerHTML = 'Clouds - '+cloudValue;

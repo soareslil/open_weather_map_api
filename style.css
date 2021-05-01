@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
   *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins, sans-serif;
+    font-family: Poppins, 'Indie Flower';
   }    
   
   body{
@@ -20,11 +20,11 @@
   }
   
   input[type="submit"]{
-    padding: 11px 20px;
+    padding: 12px 21px;
     border: 1px solid;
     color:rgba(95, 97, 226, 0.658);
     border-radius: 3px;
-    font-family: Poppins,sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-weight:bold;
     font-size: 20px; 
     cursor: pointer;
@@ -40,17 +40,15 @@ input[type="submit"]:hover{
     width: 600px;
     height: 55px;  
     padding: 5px 10px;
-    /* background: #eedbe6; */
     border: none;
     border-radius: 3px;
-    font-family: "Poppins",sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-weight: bold;
     font-size: 20px;
   }
   
   .card{
     width: 50%;
-    /* background: #afe716; */
     height: 40vh;
     margin: 50px auto;
     border-radius: 2px;
@@ -65,27 +63,61 @@ input[type="submit"]:hover{
   }
   
   .card h2{
+  padding-top: 20px;
     padding: 200px 10;
     text-align: center;
   font-weight: bold;
+  font-family: 'Indie Flower', cursive;
   }
   
   .card p{
    text-align: center;
-    margin:5px 0;
+    margin:23px 0;
     font-size:20px;
-    color: purple; 
-    font-weight:bold;
+    color: rgb(0, 0, 0); 
+    font-weight:bold; 
+    font-family: 'Indie Flower', cursive;
   }
   
 h1{
   padding: 20px 0;
-  text-align: center;
+  text-align: center; 
+  font-family: 'Indie Flower', cursive;
 }
 .container{
-  background-color: rgba(73, 73, 161, 0.315);
+  background-color: rgba(66, 66, 184, 0.11);
   margin-left: 300px;
   min-width: 500px;
   width: 550%;
   max-width: 600px;
+} 
+
+.header {
+  background-color: rgba(82, 82, 224, 0.479);
+  padding: 10px;
+  margin: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  }
+
+.linkedinHeaderButton{
+  background-color: #3a62cfd7;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
+
+.linkedinHeaderButton:hover{
+  background-color: rgba(255, 255, 255, 0.521);
+  border: 1px solid rgba(95, 97, 226, 0.658);
+  color: rgb(57, 35, 117);
+} 
+
+
+
+
+
+
